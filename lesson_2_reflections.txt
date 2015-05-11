@@ -1,0 +1,8 @@
+- What happens when you initialize a repository? Why do you need to do it?
+
+git init creates the .git dir into the directory to initialize a repository, and this is where the git start to track all the file changes and commits
+
+
+- How is the staging area different from the working directory and the repository? what value do you think it offers?
+
+staging area is medium stage between working dir and repo, and tells git how to make the next commit. this gives users an ability on the process of creating the commit without changing the working dir.
